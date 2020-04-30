@@ -1,4 +1,4 @@
-
+# find character which occurs the most frequently in a string. Test for multiple inputs
 import math
 import unittest
 
