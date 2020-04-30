@@ -3,16 +3,15 @@ import math
 import unittest
 
 # ref : https://www.tutorialspoint.com/python/string_count.htm
+# https://www.w3schools.com/python/ref_func_isinstance.asp
 
 
 def get_max_frequency(input_string):
     """ Accept a string.
     Check if it is a valid string.
-    IF valid run a for loop and count char and update count
-    return max frequency at the end of the loop"""
-
-    # ref : https://www.tutorialspoint.com/python/string_count.htm
-    # https://www.w3schools.com/python/ref_func_isinstance.asp
+    IF valid, run a for loop and count char and update count
+    If no winner, ignore. 
+    if winner, return max frequency at the end"""
 
     if isinstance(input_string, str):
 
